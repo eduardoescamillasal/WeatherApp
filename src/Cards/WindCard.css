@@ -1,0 +1,305 @@
+.frame-15,
+.frame-15 * {
+  box-sizing: border-box;
+}
+.frame-20 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-15 {
+  background: rgba(252, 252, 252, 0.2);
+  border-radius: 12px;
+  padding: 24px 20px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  height: 192px;
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.air {
+  flex-shrink: 0;
+  width: auo;
+  height: 36px;
+  position: relative;
+  overflow: visible;
+}
+
+.wind {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--heading-2-desktop, 700 32px/36px "Inter-Bold", sans-serif);
+  position: relative;
+  flex: 1;
+}
+
+.frame-17 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+
+.speed {
+  color: var(--gray-800, #514f4f);
+  text-align: left;
+  font: var(--heading-5-desktop, 700 20px/24px "Inter-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+
+._11-km-h {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--heading-1-desktop, 700 36px/40px "Inter-Bold", sans-serif);
+  position: relative;
+}
+
+.direction {
+  color: var(--gray-800, #514f4f);
+  text-align: left;
+  font: var(--heading-5-desktop, 700 20px/24px "Inter-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+
+._189 {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--heading-1-desktop, 700 36px/40px "Inter-Bold", sans-serif);
+  position: relative;
+}
+
+.gust {
+  color: var(--gray-800, #514f4f);
+  text-align: left;
+  font: var(--heading-5-desktop, 700 20px/24px "Inter-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+
+._22-km-h {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--heading-1-desktop, 700 36px/40px "Inter-Bold", sans-serif);
+  position: relative;
+}
+.weather-card,
+.weather-card * {
+  box-sizing: border-box;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  position: relative;
+  
+}
+.weather-card-main {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  position: relative;
+  height: 192px;
+}
+
+.frame-20 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.icon {
+  flex-shrink: 0;
+  width: auto;
+  height: 162px;
+  position: relative;
+  overflow: visible;
+}
+
+.sunny {
+  color: var(--base-dark, #2c2c2c);
+  text-align: center;
+  font: var(--heading-5-desktop, 700 20px/24px "Inter-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.sunny-main {
+  color: var(--base-dark, #2c2c2c);
+  text-align: center;
+  /* font: var(--heading-5-desktop, 700 20px/24px "Inter-Bold", sans-serif); */
+  position: relative;
+  align-self: stretch;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+
+.monterrey {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--display-desktop, 700 72px/72px "Inter-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+
+.monterrey-main {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  /* font: var(--display-desktop, 700 72px/72px "Inter-Bold", sans-serif); */
+  position: relative;
+  align-self: stretch;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+._12 {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--display-desktop, 700 72px/72px "Inter-Bold", sans-serif);
+  position: relative;
+}
+
+._12-main {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  /* font: var(--display-desktop, 700 72px/72px "Inter-Bold", sans-serif); */
+  position: relative;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.col2-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.max-min {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.h-18 {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--heading-4-desktop, 700 24px/28px "Inter-Bold", sans-serif);
+  position: relative;
+}
+
+.l-7 {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--heading-4-desktop, 700 24px/28px "Inter-Bold", sans-serif);
+  position: relative;
+}
+
+.h-18-main {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  position: relative;
+}
+
+.l-7-main {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  position: relative;
+}
+
+.feels-like {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.feels-like2 {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  font: var(--heading-6-desktop, 700 18px/20px "Inter-Bold", sans-serif);
+  position: relative;
+}
+
+._10 {
+  color: var(--base-dark, #2c2c2c);
+  text-align: left;
+  /* font: var(--heading-6-desktop, 700 18px/20px "Inter-Bold", sans-serif); */
+  position: relative;
+}
